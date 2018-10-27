@@ -91,7 +91,7 @@ WSGI_APPLICATION = 'theQbackend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'theqdb1',
+        'NAME': 'theqdb2',
         'USER': 'root',
         'PASSWORD': 'Aayush@123',
         'PORT': '',

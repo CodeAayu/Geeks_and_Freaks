@@ -16,13 +16,18 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 from django.conf.urls import url
-from testapp.views import savetheevent, showeventdetails, deleteevent, registertheuser
+from testapp.views import savetheevent, showeventdetails, deleteevent, registertheuser, queueenter, queueleave, tokenupdate, queuelength, userqueues
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
     url(r'api/', include('api.urls')),
+    path('admin/', admin.site.urls),
     path('neweventdetails/', savetheevent),
     path('showeventdetails/', showeventdetails),
     path('deleteevent/<int:id>/', deleteevent),
     path('blah/',registertheuser),
+    path('queueenter/',queueenter),
+    path('queueleave/',queueleave),
+    path('tokenupdate/',tokenupdate),
+    path('queuedata/',queuelength),
+    path('userqueues/',userqueues),
 ]
