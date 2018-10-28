@@ -24,7 +24,7 @@ urlpatterns = [
     path('neweventdetails/', savetheevent),
     path('showeventdetails/', showeventdetails),
     path('deleteevent/<int:id>/', deleteevent),
-    path('blah/',registertheuser),
+    #path('blah/',registertheuser),
     path('queueenter/',queueenter),
     path('queueleave/',queueleave),
     path('tokenupdate/',tokenupdate),

@@ -26,7 +26,7 @@ def showeventdetails(request):
         listing = list(data)
         for i in range(len(listing)):
             listing[i]["event_cover_image"] = settings.BASE_URL + settings.STATIC_URL + listing[i]["event_cover_image"].split('/')[1]
-            # print (listing[i])
+            ## print (listing[i])
         return JsonResponse(listing, safe=False)
     return HttpResponse("Wrong request!")
 
@@ -68,7 +68,7 @@ def queueleave(request):
 @csrf_exempt
 def queuelength(request):
     data = json.loads(request.body)
-    print (data)
+    #print (data)
     event_id = int(data["event_id"])
     ans = EventQueue.objects.get(event_id=event_id)
     length = ans.end_point - ans.start_point
@@ -96,7 +96,7 @@ def userqueues(request):
 @csrf_exempt
 def registertheuser(request):
     data = request.body
-    print (type(data))
+    #print (type(data))
     # print (request)
     # data = json.loads(request.body)
     # user_name = data["user_name"]
