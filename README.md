@@ -15,8 +15,10 @@ The-Q has two main parts, Backend and Frontend, both of which are required to ru
 Both the parts are in seperate directories.  We are using MySQL database where we store all our data about events, credentials, dynamic queues and all those stuffs. To make it up and running, clone the backend directory in a system. Create a database in your SQL server(preferably MySQL). 
 Now, edit the settings.py (the file in the root directory of Backend directory) as per your need. You need to change the Databse credentials, `Base URL`(if local host exposes to http/s, like using ngrok) and `static URL` (if you require to save binary files like images in other directories). Create a virtual environment of Python3.x where x >=6 adn activate it.
 
-`python3 -m venv name_of_virtualenv`
-`source name_of_virtualenv/bin/activate`
+```
+python3 -m venv name_of_virtualenv
+source name_of_virtualenv/bin/activate
+```
 
 Now install all the dependencies in the requirements.txt file by
 
@@ -24,8 +26,10 @@ Now install all the dependencies in the requirements.txt file by
 
 Migrate all the models to database using the following commands.
 
-`python manage.py makemigrations
-python manage.py migrate`
+```
+python manage.py makemigrations
+python manage.py migrate
+```
 
 It is advised to create a superuser for your web-app. You can do that using the following.
 
