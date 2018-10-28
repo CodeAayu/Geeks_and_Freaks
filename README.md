@@ -66,3 +66,7 @@ On a side note, if you are using this source to create your own version of The-Q
 - [Saloni Mohta](https://www.github.com/salonimohta) (Frontend developer and OOPs advisor in Python3)
 - [Raj Rani](https://www.linkedin.com/in/rrsquare) (Django and Web-D advisor)
 - [Aayush Ahuja](https://www.linkedin.com/in/codeaayu) (Python3 and REST API developer in Django)
+
+###### Note
+
+Special Thanks to POSTMAN which let us test our APIs effectivley so as to design them properly without the frontend up and running.
