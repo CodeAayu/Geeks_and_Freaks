@@ -62,10 +62,10 @@ On a side note, if you are using this source to create your own version of The-Q
 
 ## Developers
 
-- [Anushka Mittal](https://www.github.com/anushkamittal) (Team leader and Frontend developer)
+- [Aayush Ahuja](https://www.linkedin.com/in/codeaayu) (Python3 and REST API developer in Django)
 - [Saloni Mohta](https://www.github.com/salonimohta) (Frontend developer and OOPs advisor in Python3)
 - [Raj Rani](https://www.linkedin.com/in/rrsquare) (Django and Web-D advisor)
-- [Aayush Ahuja](https://www.linkedin.com/in/codeaayu) (Python3 and REST API developer in Django)
+- [Anushka Mittal](https://www.github.com/anushkamittal) (Frontend developer)
 
 ###### Note
 
